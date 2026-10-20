@@ -1,0 +1,66 @@
+.classes-section {
+  padding: 5rem 8%;
+  background: #090d16;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.classes-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.classes-section h2 span {
+  color: #4ade80; /* Parrot Green */
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  padding: 0.5rem 1.2rem;
+  background: #1e293b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.filter-btn.active {
+  background: #4ade80;
+  color: #0f172a;
+}
+
+.classes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+
+.class-card {
+  background: #1e293b;
+  padding: 1.8rem;
+  border-radius: 8px;
+  text-align: left;
+  color: #e2e8f0;
+  border: 1px solid #334155;
+}
+
+.class-card h3 {
+  color: #4ade80; /* Parrot Green */
+  margin-bottom: 0.8rem;
+  font-size: 1.3rem;
+}
+
+.class-card p {
+  margin: 0.4rem 0;
+  color: #cbd5e1;
+}

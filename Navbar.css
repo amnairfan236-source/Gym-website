@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 8%;
+  background: #0f172a;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.logo span {
+  color: #4ade80; /* Parrot Green */
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links a {
+  color: #e2e8f0;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4ade80;
+}
+
+.cta-btn {
+  background: #4ade80;
+  color: #0f172a;
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.cta-btn:hover {
+  transform: scale(1.05);
+  background: #22c55e;
+}

@@ -1,0 +1,86 @@
+.bmi-section {
+  padding: 5rem 8%;
+  background: #0f172a;
+  text-align: center;
+  color: #fff;
+  width: 100%;
+}
+
+.bmi-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bmi-section h2 span {
+  color: #4ade80; /* Parrot Green */
+}
+
+.bmi-desc {
+  color: #94a3b8;
+  margin-bottom: 2rem;
+}
+
+.bmi-form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  background: #1e293b;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 1px solid #334155;
+}
+
+.bmi-input-group {
+  text-align: left;
+}
+
+.bmi-input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #e2e8f0;
+}
+
+.bmi-input-group input {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #475569;
+  background: #0b1120;
+  color: #fff;
+}
+
+.bmi-submit-btn {
+  background: #4ade80;
+  color: #0f172a;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 6px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.bmi-submit-btn:hover {
+  background: #22c55e;
+}
+
+.bmi-result-box {
+  margin-top: 1.5rem;
+  background: #1e293b;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #334155;
+}
+
+.bmi-result-box span {
+  color: #4ade80; /* Parrot Green */
+  font-weight: bold;
+}
+
+.bmi-result-box p {
+  color: #cbd5e1;
+  margin-top: 0.4rem;
+}
